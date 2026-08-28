@@ -1,0 +1,18 @@
+# Vivado generated directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+.Xil/
+xsim.dir/
+
+# Vivado logs and journals
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+webtalk*
+usage_statistics_webtalk*
