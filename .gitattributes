@@ -3,3 +3,4 @@
 *.tcl text eol=lf
 *.png binary
 *.wcfg binary
+*.sh text eol=lf
