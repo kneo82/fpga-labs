@@ -1,18 +1,122 @@
-# Vivado generated directories
-*.cache/
-*.hw/
-*.ip_user_files/
-*.sim/
+# ===========================================================================
+# FPGA labs - Vivado + Vitis (Unified IDE)
+#
+# Based on the .gitignore provided with the assignment, extended with
+# simulation artefacts and directory-agnostic variants of the build rules.
+# ===========================================================================
+
+
+# ---------------------------------------------------------------------------
+# Vivado - generated directories
+# ---------------------------------------------------------------------------
 *.runs/
 *.gen/
+*.cache/
+*.sim/
+*.hw/
+*.ip_user_files/
+*.srcs/sources_1/bd/*/hdl/
+*.Xil/
 .Xil/
-xsim.dir/
+*.sw_folder_convert/
 
-# Vivado logs and journals
+
+# ---------------------------------------------------------------------------
+# Vivado - logs, journals, reports
+# ---------------------------------------------------------------------------
 *.jou
 *.log
 *.str
-*.wdb
 *.pb
+*.backup.jou
+*.backup.log
+vivado_pid*.debug
 webtalk*
+webtalk*.log
+webtalk*.jou
 usage_statistics_webtalk*
+
+
+# ---------------------------------------------------------------------------
+# Vivado - simulation
+# Waveform databases grow to hundreds of megabytes - never commit them.
+# ---------------------------------------------------------------------------
+xsim.dir/
+*.wdb
+*.vcd
+*.saif
+
+
+# ---------------------------------------------------------------------------
+# Vitis (Unified IDE)
+# ---------------------------------------------------------------------------
+build-vitis/
+build-vivado/
+**/Debug/
+**/Release/
+*.o
+*.d
+*.elf.bak
+*.lock
+*.bin
+*.pdi
+*.vitisWorkspace.json
+_ide/logs
+_ide/.wsdata
+
+
+# ---------------------------------------------------------------------------
+# Build output - anchored variants from the original file
+# A leading slash matches only at this file's own directory level.
+# ---------------------------------------------------------------------------
+/build
+/export
+/logs
+
+
+# ---------------------------------------------------------------------------
+# Build output - unanchored variants
+# These also catch nested Vitis components such as
+# lab4/running_light/build and lab4/z7_lite_running_light/export.
+# ---------------------------------------------------------------------------
+build/
+export/
+logs/
+
+
+# ---------------------------------------------------------------------------
+# Editor / OS
+# Unified Vitis is VS Code based and writes machine-local absolute paths.
+# ---------------------------------------------------------------------------
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+
+# ---------------------------------------------------------------------------
+# Deliverables that must NOT be ignored
+#
+# The assignment asks for Vitis build logs, but *.log above excludes them.
+# Either save them with a .txt extension, or force-add:
+#     git add -f logs/vitis_build.txt
+# The negation below keeps a dedicated folder for submitted artefacts.
+# ---------------------------------------------------------------------------
+!submission/
+!submission/**
+
+# ---- Vitis platform: generated BSP trees ----
+# Recreated by "Build" on the platform component from the .xsa.
+**/ps7_cortexa9_0/
+**/zynq_fsbl/
+**/microblaze_0/
+**/hw/sdt/
+
+# ---- Local IDE state ----
+_ide/workspace_journal*.py
+_ide/bitstream/
+*.bit
+nlviewcommon.logfile
+compile_commands.json
+.clangd

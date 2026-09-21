@@ -1,0 +1,116 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [21.09.2026, 07:20:27]: Generate z7_lite_running_light platform with id '28a5ad14-dc37-44ca-83b2-db40e12204cb' started.
+ --------------------------------------------------------------------------------
+ The log will be written to the file: C:\Users\kneo8\fpga-labs\lab4_zynq_ps\Vitis\z7_lite_running_light\logs\standalone_ps7_cortexa9_0_build.log
+ The log will be written to the file: C:\Users\kneo8\fpga-labs\lab4_zynq_ps\Vitis\z7_lite_running_light\logs\zynq_fsbl_build.log
+ [INFO]: Building BSP
+[INFO]: Copying headers and built archives
+ [INFO]: Building BSP
+[INFO]: Copying headers and built archives
+ [INFO]: Successfully built BSP. Generated libxil.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/kneo8/
+fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/Xili
+nx.spec -IC:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/ps7_cortexa9_0/standalon
+
+e_ps7_cortexa9_0/bsp/include  -O2 -g -Wall -Wextra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+ [INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/kneo8/
+fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/kn
+eo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall
+
+ -Wextra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+ Generating Boot ELFs
+ [INFO]: Starting Application build process
+[INFO]: Building BSP
+[INFO]: Copying headers and built archives
+ [INFO]: Successfully built BSP. Generated libxil.a, libxilffs.a, libxilrsa.a, libxilstandalone.a, libxiltimer.a
+[INFO]: Building Application
+ [1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: E:/AMDDesignTools/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe
+
+Compiler FLAGS:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/kneo8/
+fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/kn
+eo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/include  -O2 -g -Wall
+
+ -Wextra -fno-tree-loop-distribute-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+[1/13] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/kneo8/
+fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/Xilinx.spec -IC:/Users/kn
+eo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/zynq_fsbl_bsp/include -Wall -Wextra
+      -O0  -g3     -U__clang__  
+
+Linker Flags:       -Os -Wl,--gc-sections -n -T"C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_
+running_light/zynq_fsbl/lscript.ld" -L"C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_l
+
+ ight/zynq_fsbl/zynq_fsbl_bsp/lib/" -L"/" -Wl,--start-group,-lxiltimer,-lxilffs,-lxilrsa,-lxil,-lxils
+
+tandalone,-lxiltimer,-lxilffs,-lxilrsa,-lgcc,-lc -Wl,--end-group
+
+
+===========================================
+[2/13] Building C object CMakeFiles/fsbl.elf.dir/fsbl_hooks.c.obj
+[3/13] Building C object CMakeFiles/fsbl.elf.dir/md5.c.obj
+[4/13] Building C object CMakeFiles/fsbl.elf.dir/rsa.c.obj
+[5/13] Building C object CMakeFiles/fsbl.elf.dir/nand.c.obj
+[6/13] Building C object CMakeFiles/fsbl.elf.dir/nor.c.obj
+[7/13] Building C object CMakeFiles/fsbl.elf.dir/image_mover.c.obj
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/image_mover.c: In function 'LoadBootImage':
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/image_mover.c:400:66: warning: comparison of unsigned expression in '< 0' is always false [-Wtype-limits]
+  400 |                 if ((PSPartitionFlag == 1) && (PartitionLoadAddr < DDR_START_ADDR)) {
+      |                                                                  ^
+[8/13] Building C object CMakeFiles/fsbl.elf.dir/main.c.obj
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/main.c: In function 'main':
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/main.c:235:13: warning: unused variable 'RegVal' [-Wunused-variable]
+  235 |         u32 RegVal;
+      |             ^~~~~~
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/main.c:233:13: warning: unused variable 'HandoffAddress' [-Wunused-variable]
+  233 |         u32 HandoffAddress = 0;
+      |             ^~~~~~~~~~~~~~
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/main.c:232:13: warning: unused variable 'BootModeRegister' [-Wunused-variable]
+   232 |         u32 BootModeRegister = 0;
+      |             ^~~~~~~~~~~~~~~~
+[9/13] Building C object CMakeFiles/fsbl.elf.dir/qspi.c.obj
+[10/13] Building C object CMakeFiles/fsbl.elf.dir/pcap.c.obj
+[11/13] Building C object CMakeFiles/fsbl.elf.dir/sd.c.obj
+[12/13] Building C object CMakeFiles/fsbl.elf.dir/ps7_init.c.obj
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/ps7_init.c: In function 'ps7_config':
+C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/zynq_fsbl/ps7_init.c:1936:35: warning: comparison of integer expressions of different signedness: 'long unsigned int' and 'int' [-Wsign-compare]
+ 1936 |                     while ((*addr < delay)) {
+      |                                   ^
+[13/13] Linking C executable fsbl.elf
+   text	   data	    bss	    dec	    hex	filename
+
+  46965	   2176	  68036	 117177	  1c9b9	fsbl.elf
+
+ Generating Export directory
+ Platform Build Finished successfully.
+[21.09.2026, 07:20:33]: Generate z7_lite_running_light platform with id '28a5ad14-dc37-44ca-83b2-db40e12204cb' ended.

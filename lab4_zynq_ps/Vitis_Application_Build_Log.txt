@@ -1,0 +1,30 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [21.09.2026, 07:20:33]: Build for running_light::build with id 'f20e22ec-849d-476d-8a92-4693a4355418' started.
+ --------------------------------------------------------------------------------
+ Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\kneo8\fpga-labs\lab4_zynq_ps\Vitis\running_light\src -b c:\Users\kneo8\fpga-labs\lab4_zynq_ps\Vitis\running_light\build
+ The log will be written to the file: c:\Users\kneo8\fpga-labs\lab4_zynq_ps\Vitis\running_light\build\build.log
+ [INFO]: Starting Application build process
+[INFO]: Building Application
+ [1/3] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=C:/Users/kneo8/
+fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/export/z7_lite_running_light/sw/standalone_ps7_co
+rtexa9_0/Xilinx.spec -IC:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/z7_lite_running_light/export/z7_l
+ite_running_light/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__  
+
+Linker Flags:       -Wl,-T -Wl,"C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/running_light/src/lscrip
+t.ld" -L"C:/Users/kneo8/fpga-labs/lab4_zynq_ps/Vitis/running_light/src/" -L"C:/Users/kneo8/fpga-labs
+/lab4_zynq_ps/Vitis/z7_lite_running_light/export/z7_lite_running_light/sw/standalone_ps7_cortexa9_0/
+lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lxil,-lgcc,-lc -Wl,--end-group
+
+===========================================
+[2/3] Building C object CMakeFiles/running_light.elf.dir/main.c.obj
+[3/3] Linking C executable running_light.elf
+   text	   data	    bss	    dec	    hex	filename
+
+  40919	   3136	  23152	  67207	  10687	running_light.elf
+
+ Build Finished successfully
+ --------------------------------------------------------------------------------
+[21.09.2026, 07:20:35]: Build for running_light::build with id 'f20e22ec-849d-476d-8a92-4693a4355418' ended.
