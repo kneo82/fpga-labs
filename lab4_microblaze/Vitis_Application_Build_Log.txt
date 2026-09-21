@@ -1,0 +1,36 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [21.09.2026, 09:10:17]: Build for z7_running_led::build with id 'f1402533-b575-408e-b458-aa091aca2339' started.
+ --------------------------------------------------------------------------------
+ Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s c:\Users\kneo8\fpga-labs\lab4_microblaze\Vitis\z7_running_led\src -b c:\Users\kneo8\fpga-labs\lab4_microblaze\Vitis\z7_running_led\build
+ The log will be written to the file: c:\Users\kneo8\fpga-labs\lab4_microblaze\Vitis\z7_running_led\build\build.log
+ [INFO]: Starting Application build process
+ [INFO]: Building Application
+ [1/3] ==========Application Build Information ==========
+
+Compiler Flags:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/kneo8/fp
+ga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/export/z7_lite_microblaze/sw/standalone_microblaze_
+0/Xilinx.spec -IC:/Users/kneo8/fpga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/export/z7_lite_mic
+roblaze/sw/standalone_microblaze_0/include -Wall -Wextra      -O0  -g3     -U__clang__  
+
+Linker Flags:   -Wl,--no-relax  -Wl,--gc-sections      -Wl,-T -Wl,"C:/Users/kneo8/fpga-labs/lab4_mic
+
+roblaze/Vitis/z7_running_led/src/lscript.ld" -L"C:/Users/kneo8/fpga-labs/lab4_microblaze/Vitis/z7_ru
+
+nning_led/src/" -L"C:/Users/kneo8/fpga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/export/z7_lite_
+
+microblaze/sw/standalone_microblaze_0/lib/" -L"/" -Wl,--start-group,-lxilstandalone,-lxiltimer,-lglo
+
+ss,-lxil,-lgcc,-lc -Wl,--end-group
+
+
+===========================================
+[2/3] Building C object CMakeFiles/z7_running_led.elf.dir/main.c.obj
+[3/3] Linking C executable z7_running_led.elf
+   text	   data	    bss	    dec	    hex	filename
+
+  17512	    694	   3762	  21968	   55d0	z7_running_led.elf
+
+ Build Finished successfully
+ --------------------------------------------------------------------------------
+[21.09.2026, 09:10:21]: Build for z7_running_led::build with id 'f1402533-b575-408e-b458-aa091aca2339' ended.

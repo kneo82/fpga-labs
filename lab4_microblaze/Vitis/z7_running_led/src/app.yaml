@@ -1,0 +1,4 @@
+domain_path: C:/Users/kneo8/fpga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/export/z7_lite_microblaze/sw/standalone_microblaze_0
+app_src_dir: E:\AMDDesignTools\2026.1\Vitis\data\embeddedsw\lib\sw_apps\empty_application
+template: empty_application
+lang: c

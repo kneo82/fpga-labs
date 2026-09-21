@@ -1,0 +1,60 @@
+=== MicroBlaze running light: behavioral simulation ===
+[10000 ns] led = zzzz
+[1000000 ns] reset released
+[1000000 ns] waiting for firmware...
+[1000000 ns] firmware alive, led = zzzz
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_z7_microblaze_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:37 . Memory (MB): peak = 1847.430 ; gain = 0.000
+run all
+[41000000 ns] FAIL one-hot: led = 0000
+[78350000 ns] led = 0001
+[81000000 ns] PASS initial run: 1 steps
+[81000000 ns] --- switch to reverse ---
+[96670000 ns] led = 1000
+[114210000 ns] led = 0100
+[121000000 ns] PASS reverse: 2 steps
+[121000000 ns] --- switch back to forward ---
+[131890000 ns] led = 1000
+[149330000 ns] led = 0001
+[161000000 ns] PASS forward: 2 steps
+[161000000 ns] --- press BTN0 ---
+[166850000 ns] led = 0010
+[184910000 ns] led = 0100
+[210090000 ns] led = 1000
+[228030000 ns] led = 0001
+[246490000 ns] led = 0010
+[264050000 ns] led = 0100
+[281000000 ns] PASS after speed up: 2 steps
+[281000000 ns] --- press BTN1 ---
+[281730000 ns] led = 1000
+[299670000 ns] led = 0001
+[327070000 ns] led = 0010
+[345130000 ns] led = 0100
+[363750000 ns] led = 1000
+[381190000 ns] led = 0001
+[398710000 ns] led = 0010
+[401000000 ns] PASS after speed down: 3 steps
+[401000000 ns] --- press BTN2 ---
+[416770000 ns] led = 0100
+[521000000 ns] PASS after stop: stopped
+[521000000 ns] --- press BTN2 ---
+[561850000 ns] led = 1000
+[579790000 ns] led = 0001
+[598250000 ns] led = 0010
+[615810000 ns] led = 0100
+[633490000 ns] led = 1000
+[641000000 ns] PASS after resume: 2 steps
+[641000000 ns] --- press BTN3 ---
+[650930000 ns] led = 0001
+[668950000 ns] led = 0010
+[684230000 ns] led = 0001
+[698130000 ns] led = 0010
+[716190000 ns] led = 0100
+[721000000 ns] PASS one-hot: led = 0100
+[734810000 ns] led = 1000
+[752250000 ns] led = 0001
+[761000000 ns] PASS after reset: 2 steps
+=== simulation finished, 32 steps total ===
+$finish called at time : 761 us : File "C:/Users/kneo8/fpga-labs/lab4_microblaze/Vivado/lab4_microblaze.srcs/sim_1/new/tb_z7_microblaze.v" Line 189
+run: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 1941.977 ; gain = 0.000

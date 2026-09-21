@@ -1,0 +1,28 @@
+ --------------------------------------------------------------------------------
+ --------------------------------------------------------------------------------
+ [21.09.2026, 09:10:15]: Generate z7_lite_microblaze platform with id '98dd6b7e-2aa3-4bd8-a6f2-cdea472a0316' started.
+ --------------------------------------------------------------------------------
+ The log will be written to the file: C:\Users\kneo8\fpga-labs\lab4_microblaze\Vitis\z7_lite_microblaze\logs\standalone_microblaze_0_build.log
+ [INFO]: Building BSP
+[INFO]: Copying headers and built archives
+ [INFO]: Successfully built BSP. Generated libxil.a, libxilstandalone.a, libxiltimer.a
+[1/2] Archiving C static library libsrc/build_configs/gen_bsp/libxil.a
+[2/2] ========== BSP Build Information ==========
+
+Compiler PATH: E:/AMDDesignTools/2026.1/Vitis/gnu/microblaze/nt/bin/mb-gcc.exe
+
+Compiler FLAGS:   -mlittle-endian -mxl-soft-mul -mcpu=v11.0 -DSDT  -MMD -MP -specs=C:/Users/kneo8/fp
+ga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/microblaze_0/standalone_microblaze_0/bsp/Xilinx.spe
+c -IC:/Users/kneo8/fpga-labs/lab4_microblaze/Vitis/z7_lite_microblaze/microblaze_0/standalone_microb
+laze_0/bsp/include  -O2 -g -ffunction-sections -fdata-sections -Wall -Wextra -fno-tree-loop-distribu
+
+te-patterns -DNDEBUG
+
+
+===========================================
+** The above flags are BSP level flags. Increase verbosity to see component specific flags **
+===========================================
+ Generating Boot ELFs
+ Generating Export directory
+ Platform Build Finished successfully.
+[21.09.2026, 09:10:17]: Generate z7_lite_microblaze platform with id '98dd6b7e-2aa3-4bd8-a6f2-cdea472a0316' ended.

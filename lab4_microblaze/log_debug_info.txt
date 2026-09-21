@@ -1,0 +1,20 @@
+
+=== Z7-Lite MicroBlaze running light  build Sep 21 2026 09:10:21 ===
+axi_gpio_0 (leds)   ... ok
+axi_gpio_1 (keys)   ... ok
+axi_gpio_2 (switch) ... ok
+axi_timer_0        ... ok
+interrupt system   ... ok
+running: BTN0 faster, BTN1 slower, BTN2 stop, BTN3 reset
+speed -> 5
+speed -> 6
+speed -> 5
+speed -> 4
+speed -> 5
+speed -> 6
+running -> 0
+running -> 1
+running -> 0
+running -> 1
+running -> 0
+running -> 1
