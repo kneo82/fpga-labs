@@ -1,0 +1,67 @@
+{
+  "name": "lab5_dma",
+  "type": "PLATFORM",
+  "configuration": {
+    "description": "",
+    "xsa": "C:/Users/kneo8/fpga-labs/lab5_DMA/Vivado/lab5_DMA/design_1_wrapper.xsa",
+    "xsaPathInPlatform": "lab5_dma/hw/design_1_wrapper.xsa",
+    "emulationXsa": "",
+    "emulationXsaPathInPlatform": "",
+    "isCustomFSBL": false,
+    "fsblPath": "",
+    "pmufwElf": "",
+    "flow": "EMBEDDED",
+    "processorsMap": {
+      "microblaze_0": "microblaze"
+    },
+    "supportedOS": [
+      "standalone",
+      "freertos",
+      "linux"
+    ],
+    "supportedFamily": "zynq",
+    "stdGenHookList": [
+      {
+        "key": "VITIS_SDT_REPO",
+        "value": ""
+      },
+      {
+        "key": "VITIS_SDT_BOARD_DTS",
+        "value": ""
+      },
+      {
+        "key": "VITIS_SDT_INCLUDE_DTS",
+        "value": ""
+      },
+      {
+        "key": "-dt_overlay",
+        "value": "0"
+      },
+      {
+        "key": "custom_dtsi",
+        "value": ""
+      }
+    ],
+    "componentType": "PLATFORM",
+    "domains": [
+      {
+        "name": "standalone_microblaze_0",
+        "displayName": "standalone_microblaze_0",
+        "processor": "microblaze_0",
+        "cpuType": "microblaze",
+        "cpuInstance": "microblaze_0",
+        "os": "standalone",
+        "architecture": "UNKNOWN_ARCH",
+        "appTemplate": "empty_application",
+        "isBootDomain": false,
+        "qemuData": "resources/standalone_microblaze_0/qemu",
+        "qemuArgsFile": "resources/standalone_microblaze_0/qemu/qemu_args.txt",
+        "pmcQemuArgsFile": "",
+        "isBSPGenReq": false
+      }
+    ],
+    "emptyToolchainConfiguration": []
+  },
+  "useSysrootToolchain": false,
+  "templateFlow": "VITIS"
+}

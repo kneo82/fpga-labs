@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_datamover_pkg" />
+            <top_module name="axi_dma_pkg" />
+            <top_module name="glbl" />
+            <top_module name="ipif_pkg" />
+            <top_module name="lmb_bram_if_funcs" />
+            <top_module name="mdm_funcs" />
+            <top_module name="tb_system" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="490.516343 us"></ZoomStartTime>
+      <ZoomEndTime time="4,818.409147 us"></ZoomEndTime>
+      <Cursor1Time time="4,097.093679 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="185"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject fp_name="/tb_system/clk_50m" type="logic">
+      <obj_property name="ElementShortName">clk_50m</obj_property>
+      <obj_property name="ObjectShortName">clk_50m</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/reset_n" type="logic">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/pix_clk" type="logic">
+      <obj_property name="ElementShortName">pix_clk</obj_property>
+      <obj_property name="ObjectShortName">pix_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/pix_data" type="array">
+      <obj_property name="ElementShortName">pix_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pix_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/pix_valid" type="logic">
+      <obj_property name="ElementShortName">pix_valid</obj_property>
+      <obj_property name="ObjectShortName">pix_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/btn" type="array">
+      <obj_property name="ElementShortName">btn[0:0]</obj_property>
+      <obj_property name="ObjectShortName">btn[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/FRAME_WIDTH" type="array">
+      <obj_property name="ElementShortName">FRAME_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/FRAME_HEIGHT" type="array">
+      <obj_property name="ElementShortName">FRAME_HEIGHT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_HEIGHT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/FRAME_PIXELS" type="array">
+      <obj_property name="ElementShortName">FRAME_PIXELS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_PIXELS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/FRAME_WORDS" type="array">
+      <obj_property name="ElementShortName">FRAME_WORDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">FRAME_WORDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/ACLK_HALF" type="other">
+      <obj_property name="ElementShortName">ACLK_HALF</obj_property>
+      <obj_property name="ObjectShortName">ACLK_HALF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/PIXCLK_HALF" type="other">
+      <obj_property name="ElementShortName">PIXCLK_HALF</obj_property>
+      <obj_property name="ObjectShortName">PIXCLK_HALF</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/BOOT_NS" type="array">
+      <obj_property name="ElementShortName">BOOT_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BOOT_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/DEBOUNCE_NS" type="array">
+      <obj_property name="ElementShortName">DEBOUNCE_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEBOUNCE_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/DRAIN_NS" type="array">
+      <obj_property name="ElementShortName">DRAIN_NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DRAIN_NS[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/m_axis_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/m_axis_tlast" type="logic">
+      <obj_property name="ElementShortName">m_axis_tlast</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tlast</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/axi_dma_0/m_axi_s2mm_wvalid" type="logic">
+      <obj_property name="ElementShortName">m_axi_s2mm_wvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axi_s2mm_wvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/m_axis_tdata" type="array">
+      <obj_property name="ElementShortName">m_axis_tdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/frame_done" type="logic">
+      <obj_property name="ElementShortName">frame_done</obj_property>
+      <obj_property name="ObjectShortName">frame_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_system/dut/design_1_i/frame_rx_0/dropped_words" type="array">
+      <obj_property name="ElementShortName">dropped_words[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dropped_words[31:0]</obj_property>
+   </wvobject>
+</wave_config>

@@ -13,3 +13,7 @@ status = platform.build()
 comp = client.get_component(name="z7_running_led")
 comp.build()
 
+vitis.dispose()
+
+vitis.dispose()
+

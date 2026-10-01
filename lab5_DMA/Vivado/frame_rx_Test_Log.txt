@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+=== frame_rx: 32x8 = 256 pixels = 64 words ===
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_frame_rx.dut.u_fifo.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_frame_rx/dut/u_fifo/gnuram_async_fifo.xpm_fifo_base_inst/gen_sdpram.xpm_memory_base_inst/Initial310_36  Scope: tb_frame_rx.dut.u_fifo.gnuram_async_fifo.xpm_fifo_base_inst.gen_sdpram.xpm_memory_base_inst.config_drc  File: E:/AMDDesignTools/2026.1/Vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 534
+--- data before start ---
+[3605000] PASS input ignored before start
+--- frame with a ready consumer ---
+[23195000] PASS all words received
+[23195000] PASS tlast on last word
+[23195000] PASS nothing dropped
+[23195000] PASS frame_done asserted
+--- frame with a stalling consumer ---
+[41815000] PASS words dropped while stalled
+[45815000] after drain: dropped 47 of 64 words
+=== ALL CHECKS PASSED ===
+$finish called at time : 45815 ns : File "C:/Users/kneo8/fpga-labs/lab5_DMA/Vivado/lab5_DMA.srcs/sim_1/new/tb_frame_rx.v" Line 243
